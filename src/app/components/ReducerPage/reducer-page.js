@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import _ from "lodash";
-//import { connect } from "react-redux";
+import { connect } from "react-redux";
 import { decrementCounter, incrementCounter } from "./actions";
-//import {Button, Container, Header, Icon, Segment} from "semantic-ui-react";
+import {Button, Container, Header, Icon, Segment} from "semantic-ui-react";
 
 export default @connect((state) => {
     return {

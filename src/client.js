@@ -1,5 +1,5 @@
-//import "semantic-ui-css/semantic.css";
-//import ReduxClient from "@pawjs/redux/client";
+import "semantic-ui-css/semantic.css";
+import ReduxClient from "@pawjs/redux/client";
 import * as AppReducers from "./app/reducers";
 
 const AppInitialState = {

@@ -1,4 +1,4 @@
-//import ReduxServer from "@pawjs/redux/server";
+import ReduxServer from "@pawjs/redux/server";
 import * as AppReducers from "./app/reducers";
 
 const AppInitialState = {
