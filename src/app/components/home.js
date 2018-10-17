@@ -43,7 +43,7 @@ const Home = () => (
                         marginTop: "1.5em",
                     }}
                 />
-                <Button as={Link} className="ui animated fade button primary huge" to="/reducer">
+                <Button className="ui animated fade button primary huge" to="/reducer">
                     <div className="visible content">
                         Checkout Redux
                     </div>
@@ -58,7 +58,7 @@ const Home = () => (
             <Grid container stackable verticalAlign="middle">
                 <Grid.Row>
                     <Grid.Column width={8}>
-                        <Link to="/reducer"><h2>Reducer Demo</h2></Link>
+                        <Link to="/"><h2>Reducer Demo</h2></Link>
                         <Header as="h3" style={{ fontSize: "2em" }}>
                             We Help Companies and Companions
                         </Header>
