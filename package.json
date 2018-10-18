@@ -1,7 +1,7 @@
 {
   "name": "example-pawjs-semantic-ui",
   "version": "1.0.0",
-  "description": "Example on using Semantic-ui CSS with PawJS",
+  "description": "Example on using Semantic-UI with PawJS",
   "scripts": {
     "start": "pawjs --env=development start",
     "build": "pawjs --env=production --config=prod.pawconfig.json build"
@@ -32,9 +32,9 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Atyantik/example-pawjs-tailwind/issues"
+    "url": "https://github.com/Atyantik/example-pawjs-semantic-ui/issues"
   },
-  "homepage": "https://github.com/Atyantik/example-pawjs-tailwind#readme",
+  "homepage": "https://github.com/Atyantik/example-pawjs-semantic-ui#readme",
   "dependencies": {
     "semantic-ui-css": "^2.4.1",
     "semantic-ui-react": "^0.82.5"
