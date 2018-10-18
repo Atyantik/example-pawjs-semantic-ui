@@ -45,10 +45,10 @@ const Home = () => (
                 />
                 <Button className="ui animated fade button primary huge" to="/reducer">
                     <div className="visible content">
-                        Checkout Redux
+                        Call to action
                     </div>
                     <div className="hidden content">
-                        Go to the Link
+                        Click here
                         <Icon name="right arrow" />
                     </div>
                 </Button>
@@ -58,7 +58,6 @@ const Home = () => (
             <Grid container stackable verticalAlign="middle">
                 <Grid.Row>
                     <Grid.Column width={8}>
-                        <Link to="/"><h2>Reducer Demo</h2></Link>
                         <Header as="h3" style={{ fontSize: "2em" }}>
                             We Help Companies and Companions
                         </Header>
