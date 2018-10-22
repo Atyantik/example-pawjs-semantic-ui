@@ -1,3 +1,3 @@
-import "semantic-ui-css/semantic.css";
+import 'semantic-ui-css/semantic.css';
 
 export default class Client {}

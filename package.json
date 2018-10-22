@@ -16,7 +16,7 @@
     "url": "https://www.atyantik.com/"
   },
   "engines": {
-    "node" : ">=10.12.0"
+    "node": ">=10.12.0"
   },
   "contributors": [
     {
