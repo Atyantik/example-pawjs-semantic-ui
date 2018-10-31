@@ -65,11 +65,10 @@ const Home = () => (
             <p style={{ fontSize: '1.33em' }}>
               Unleash your creativity and explore the infinite possibilities. #ReactPWA
             </p>
-            <script src="https://codefund.io/scripts/fefc6de5-a0ce-46e8-a15d-f43733b5b454/embed.js" />
-            <div id="codefund_ad" />
           </Grid.Column>
           <Grid.Column floated="right" width={6}>
-            <Image bordered rounded size="large" src="http://react.semantic-ui.com/images/wireframe/white-image.png" />
+            <script src="https://codefund.io/scripts/fefc6de5-a0ce-46e8-a15d-f43733b5b454/embed.js" />
+            <div id="codefund_ad" />
           </Grid.Column>
         </Grid.Row>
         <Grid.Row>
@@ -82,7 +81,7 @@ const Home = () => (
     <Segment style={{ padding: '0em' }} vertical>
       <Grid celled="internally" columns="equal" stackable>
         <Grid.Row textAlign="center">
-          <Grid.Column style={{ paddingBottom: '5em', paddingTop: '5em' }}>
+          <Grid.Column style={{ paddingBottom: '2em', paddingTop: '5em' }}>
             <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" />
             <ins
               className="adsbygoogle"
