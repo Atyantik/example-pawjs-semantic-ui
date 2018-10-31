@@ -6,7 +6,6 @@ import {
   Divider,
   Grid,
   Header,
-  Icon,
   Image,
   List,
   Segment,
@@ -24,7 +23,7 @@ const Home = () => (
       <Container text>
         <Header
           as="h1"
-          content="Imagine-a-Company"
+          content="Semantic-UI + ReactPWA"
           inverted
           style={{
             fontSize: '4em',
@@ -61,20 +60,13 @@ const Home = () => (
         <Grid.Row>
           <Grid.Column width={8}>
             <Header as="h3" style={{ fontSize: '2em' }}>
-              We Help Companies and Companions
+              ReactPWA
             </Header>
             <p style={{ fontSize: '1.33em' }}>
-              We can give your company superpowers to do things that they never
-              thought possible. Let us delight your customers and empower your
-              needs... through pure data analytics.
+              Unleash your creativity and explore the infinite possibilities. #ReactPWA
             </p>
-            <Header as="h3" style={{ fontSize: '2em' }}>
-              We Make Bananas That Can Dance
-            </Header>
-            <p style={{ fontSize: '1.33em' }}>
-              {`Yes that's right, you thought it was the stuff of dreams, but even bananas can be
-              bioengineered.`}
-            </p>
+            <script src="https://codefund.io/scripts/fefc6de5-a0ce-46e8-a15d-f43733b5b454/embed.js" />
+            <div id="codefund_ad" />
           </Grid.Column>
           <Grid.Column floated="right" width={6}>
             <Image bordered rounded size="large" src="http://react.semantic-ui.com/images/wireframe/white-image.png" />
@@ -82,7 +74,7 @@ const Home = () => (
         </Grid.Row>
         <Grid.Row>
           <Grid.Column textAlign="center">
-            <Button size="huge">Check Them Out</Button>
+            <Button as="a" size="huge" href="https://www.reactpwa.com">Visit Site</Button>
           </Grid.Column>
         </Grid.Row>
       </Grid>
@@ -91,14 +83,18 @@ const Home = () => (
       <Grid celled="internally" columns="equal" stackable>
         <Grid.Row textAlign="center">
           <Grid.Column style={{ paddingBottom: '5em', paddingTop: '5em' }}>
-            <Header as="h3" style={{ fontSize: '2em' }}>
-              {'What a Company'}
-            </Header>
-            <p style={{ fontSize: '1.33em' }}>That is what they all say about us</p>
+            <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" />
+            <ins
+              className="adsbygoogle"
+              style={{ display: 'block' }}
+              data-ad-client="ca-pub-7586505628408924"
+              data-ad-slot="5652642939"
+              data-ad-format="auto"
+            />
           </Grid.Column>
           <Grid.Column style={{ paddingBottom: '5em', paddingTop: '5em' }}>
             <Header as="h3" style={{ fontSize: '2em' }}>
-              {"I shouldn't have gone with their competitor."}
+              I shouldn&#39;t have gone with their competitor.
             </Header>
             <p style={{ fontSize: '1.33em' }}>
               <Image avatar src="http://react.semantic-ui.com/images/avatar/large/nan.jpg" />
@@ -135,12 +131,12 @@ const Home = () => (
           Did We Tell You About Our Bananas?
         </Header>
         <p style={{ fontSize: '1.33em' }}>
-          {`Yes I know you probably disregarded the earlier boasts as non-sequitur filler content,
-          but it's really true. It took years of gene splicing and combinatory DNA research,
-          but our bananas can really dance.`}
+          Yes I know you probably disregarded the earlier boasts as non-sequitur filler content,
+          but it&#39;s really true. It took years of gene splicing and combinatory DNA research,
+          but our bananas can really dance.
         </p>
         <Button as="a" size="large">
-          {"I'm Still Quite Interested"}
+          I&#39;m Still Quite Interested
         </Button>
       </Container>
     </Segment>
@@ -168,11 +164,12 @@ const Home = () => (
             </Grid.Column>
             <Grid.Column width={7}>
               <Header as="h4" inverted>
-                Footer Header
+                ReactPWA - PawJS - Semantic-UI
               </Header>
               <p>
-                Extra space for a call to action inside the footer that could help
-                re-engage users.
+                This is an example of implementation of Semantic-UI with ReactPWA.
+                Help us grow further visit&nbsp;
+                <a href="https://opencollective.com/react-pwa" target="_blank" rel="noreferrer nofollow noopener">OpenCollective</a>
               </p>
             </Grid.Column>
           </Grid.Row>
