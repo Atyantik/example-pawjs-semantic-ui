@@ -2,7 +2,7 @@
   "port": "9002",
   "host": "0.0.0.0",
   "appRootUrl": "/examples/semantic-ui",
-  "serviceWorker": false,
+  "serviceWorker": true,
   "asyncCSS": false,
   "serverSideRender": true,
   "singlePageApplication": false

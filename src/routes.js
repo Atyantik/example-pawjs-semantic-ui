@@ -18,8 +18,8 @@ export default class Routes {
     routeHandler.hooks.initRoutes.tapPromise('AppRoutes', async () => {
       routeHandler.addRoutes(routes);
       routeHandler.setPwaSchema({
-        name: 'ReactPWA | Semantic-UI',
-        short_name: 'RPWAS',
+        name: 'ReactPWA | PawJS - Semantic-UI',
+        short_name: 'P-SUI',
         dir: 'ltr',
         lang: 'en-US',
         orientation: 'any',
